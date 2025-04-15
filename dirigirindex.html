@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula IF ELSE</title>
+</head>
+<body>
+  <center>
+    <h1>Aula IF ELSE</h1>
+  </center>
+
+  <script>
+    var idade = prompt("Qual a sua idade?");
+    var carteira = prompt("Voce possui carteira de motorista? (s para sim / n para nao)");
+
+    idade = parseInt(idade); // converter idade pra numero
+
+    if (idade >= 18 && carteira.toLowerCase() === "s") {
+      document.write("Voce pode dirigir.");
+    } else {
+      document.write("Voce nao pode dirigir.");
+    }
+  </script>
+</body>
+</html>
